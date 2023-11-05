@@ -1,328 +1,324 @@
 .site-header {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 92px 50px 92px 50px;
-    font-size: 18px;
-    line-height: 24px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 92px 50px 92px 50px;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .nav {
-    align-self: center;
+  align-self: center;
 }
 
 .menu {
-    display: flex;
-    gap: 35px;
-    list-style: circle;
+  display: flex;
+  gap: 35px;
+  list-style: circle;
 }
 
 .nav li:first-child {
-    text-decoration: none;
-    list-style: none;
+  text-decoration: none;
+  list-style: none;
 }
 
 .home {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .logo {
-    grid-column-start: 2;
-    justify-self: center;
-    width: 148px;
-    height: 105px;
+  grid-column-start: 2;
+  justify-self: center;
+  width: 148px;
+  height: 105px;
 }
 
 .contacts {
-    grid-column-start: 3;
-    justify-self: end;
-    align-self: center;
-    font-style: normal;
-    line-height: 24.3px;
+  grid-column-start: 3;
+  justify-self: end;
+  align-self: center;
+  font-style: normal;
+  line-height: 24.3px;
 }
 
 .phone-number,
 .e-mail {
-    display: block;
+  display: block;
 }
 
 .address {
-    max-width: 240px;
-    margin: 0;
+  max-width: 240px;
+  margin: 0;
 }
 
 .cover {
-    position: relative;
-    display: grid;
-    grid-row: 4;
-    width: auto;
-    margin-bottom: 185px;
-    padding: 165px 50px 50px 50px;
-    color: #ffffff;
-    background-image: url(../images/cover.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    grid-column: 1;
+  position: relative;
+  display: grid;
+  grid-row: 4;
+  width: auto;
+  margin-bottom: 185px;
+  padding: 165px 50px 50px 50px;
+  color: #ffffff;
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  grid-column: 1;
 }
 
 .cover::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-    background: rgba(0, 0, 0, 0.6);
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .cover__head {
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
 }
 
 .left,
 .center,
 .right {
-    font-weight: 700;
-    font-size: 100px;
-    letter-spacing: 30px;
+  font-weight: 700;
+  font-size: 100px;
+  letter-spacing: 30px;
 }
 
 .left {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 .right {
-    margin-bottom: 75px;
-    text-align: end;
+  margin-bottom: 75px;
+  text-align: end;
 }
 
 .letter-spacing-extended {
-    letter-spacing: 60px;
+  letter-spacing: 60px;
 }
 
 .end__letter {
-    letter-spacing: 0;
+  letter-spacing: 0;
 }
 
 .buttom {
-    z-index: 2;
-    display: grid;
-    grid-template-columns: 1fr auto;
-    padding: 50px 0 0 0;
-
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  padding: 50px 0 0 0;
 }
 
 .expression {
-    align-self: center;
-    margin-right: 75px;
-    font-size: 22px;
-    text-align: end;
-    text-transform: uppercase;
-    word-spacing: 18px;
-    line-height: 28px;
+  align-self: center;
+  margin-right: 75px;
+  font-size: 22px;
+  text-align: end;
+  text-transform: uppercase;
+  word-spacing: 18px;
+  line-height: 28px;
 }
 
-button {
-    justify-self: end;
-    width: 257px;
-    height: 52px;
-    border: 1px solid #fff;
-    color: #ffffff;
-    font-size: 22px;
-    text-transform: uppercase;
-    background-color: transparent;
+.button {
+  justify-self: end;
+  width: 257px;
+  height: 52px;
+  border: 1px solid #fff;
+  color: #ffffff;
+  font-size: 22px;
+  text-transform: uppercase;
+  background-color: transparent;
 }
 
 .lots {
-    margin-bottom: 180px;
+  margin-bottom: 180px;
 }
 
 .lots_name {
-    margin-top: 0px;
-    margin-bottom: 27px;
-    margin-left: 90px;
-    font-weight: 700;
-    font-size: 40px;
-    text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 27px;
+  margin-left: 90px;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
 }
 
 .cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: stretch;
-    gap: 10px;
-    min-height: 430px;
-    margin: 0 50px 30px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 10px;
+  min-height: 430px;
+  margin: 0 50px 30px 50px;
 }
 
 .card {
-    position: relative;
-    flex-basis: calc(33.33% - 10px);
-    color: #fff;
-    background-position: center;
-    background-size: cover;
-    text-decoration: none;
-    display: block;
-    height: 100%;
+  position: relative;
+  flex-basis: calc(33.33% - 10px);
+  color: #fff;
+  background-position: center;
+  background-size: cover;
+  text-decoration: none;
+  display: block;
+  height: 100%;
 }
 
 .card::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-    background: rgba(0, 0, 0, 0.6);
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .film {
-    background-image: url(../images/card-lot-01.jpg);
-    background-repeat: no-repeat;
-
+  background-image: url(../images/card-lot-01.jpg);
+  background-repeat: no-repeat;
 }
 
 .book {
-    background-image: url(../images/card-lot-02.jpg);
-    background-repeat: no-repeat;
+  background-image: url(../images/card-lot-02.jpg);
+  background-repeat: no-repeat;
 }
 
 .picture {
-    background-image: url(../images/card-lot-03.jpg);
-    background-repeat: no-repeat;
+  background-image: url(../images/card-lot-03.jpg);
+  background-repeat: no-repeat;
 }
 
 .text {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    max-width: 430px;
-    min-height: 450px;
-    padding: 50px 40px 50px 40px;
-    font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 430px;
+  min-height: 450px;
+  padding: 50px 40px 50px 40px;
+  font-size: 20px;
 }
 
 .text p:not(:last-child) {
-    padding-bottom: 25px;
+  padding-bottom: 25px;
 }
 
 .card__head {
-    z-index: 2;
-    margin-bottom: 10px;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 120%;
-    text-decoration-line: underline;
-    text-transform: uppercase;
+  z-index: 2;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 120%;
+  text-decoration-line: underline;
+  text-transform: uppercase;
 }
 
 .card__paragraph {
-    z-index: 2;
+  z-index: 2;
 }
 
 .lots_more {
-    margin-top: 30px;
-    margin-bottom: 182px;
+  margin-top: 30px;
+  margin-bottom: 182px;
 
-    margin-left: 90px;
-    color: #000;
-    font-weight: 400;
-    font-size: 20px;
+  margin-left: 90px;
+  color: #000;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 .about {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    grid-template-rows: 1fr 1fr;
-    margin: 0 50px 175px 50px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin: 0 50px 175px 50px;
 }
 
 .about_background {
-    display: flex;
-    grid-row: 1 / 2;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    min-width: 240px;
-    min-height: 240px;
-    margin: 0 95px 7px 95px;
-    border-radius: 50%;
-    background-color: #000;
+  display: flex;
+  grid-row: 1 / 2;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  min-width: 240px;
+  min-height: 240px;
+  margin: 0 95px 7px 95px;
+  border-radius: 50%;
+  background-color: #000;
 }
 
 .about_logo {
-    width: 148px;
-    height: 114px;
+  width: 148px;
+  height: 114px;
 }
 
 .about_header {
-    align-self: center;
-    margin-left: 25px;
-    font-weight: 700;
-    font-size: 40px;
-    text-transform: uppercase;
+  align-self: center;
+  margin-left: 25px;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
 }
 
 .about_paragraph {
-    grid-column: 2;
-    grid-row: 2;
-    margin-left: 25px;
-    font-weight: 400;
-    font-size: 20px;
+  grid-column: 2;
+  grid-row: 2;
+  margin-left: 25px;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 .about_paragraph p:not(:last-child) {
-    padding-bottom: 25px;
+  padding-bottom: 25px;
 }
 
-
 .footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-start: 1;
-    justify-self: start;
-    margin: 0 50px 90px 50px;
-    font-size: 18px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-start: 1;
+  justify-self: start;
+  margin: 0 50px 90px 50px;
+  font-size: 18px;
 }
 
 .footer_address {
-    font-style: normal;
-    line-height: 24.3px;
-    max-width: 240px;
+  font-style: normal;
+  line-height: 24.3px;
+  max-width: 240px;
 }
 
 .footer_menu {
-    display: flex;
-    flex-direction: column;
-    grid-column-start: 2;
-    justify-self: center;
-    text-align: center;
-    list-style: none;
+  display: flex;
+  flex-direction: column;
+  grid-column-start: 2;
+  justify-self: center;
+  text-align: center;
+  list-style: none;
 }
 
-
 .footer_socials {
-    grid-column-start: 3;
-    justify-self: end;
+  grid-column-start: 3;
+  justify-self: end;
 }
 
 .youtube,
 .vk,
 .pinterest {
-    width: 48px;
-    text-decoration: none;
+  width: 48px;
+  text-decoration: none;
 }
 
 .youtube,
 .vk {
-    margin-right: 45px;
+  margin-right: 45px;
 }
