@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
     <link rel="stylesheet" href="fonts/fonts.css" />
     <link rel="stylesheet" href="styles/global.css" />
     <link rel="stylesheet" href="styles/style.css" />
@@ -20,21 +20,21 @@
       <div class="logo">
         <a href="#"><img src="images/logo-black.svg" alt="Оно тебе надо" /></a>
       </div>
-      <address class="address">
+      <address class="contacts">
         <a class="phone-number" href="tel:+99995555555">+9 999 555 5555</a>
         <a class="e-mail" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <p class="adds">наб. Принсенграхт 263-265, Амстердам</p>
+        <p class="address">наб. Принсенграхт 263-265, Амстердам</p>
       </address>
     </header>
     <section class="cover">
       <h1 class="cover__head">
-        <span class="left">О<span class="center__literal">Н</span>О</span>
+        <span class="left">О<span class="letter-spacing-extended">Н</span>О</span>
         <span class="center"
-          >ТЕ<span class="center__literal">Б</span
-          ><span class="center__literal">Е</span></span
+          >ТЕ<span class="letter-spacing-extended">Б</span
+          ><span class="letter-spacing-extended">Е</span></span
         >
         <span class="right"
-          ><span class="right__literal">Н</span>АД<span class="end__literal"
+          ><span class="letter-spacing-extended">Н</span>АД<span class="end__letter"
             >О</span
           ></span
         >
@@ -48,20 +48,20 @@
     <section id="lots" class="lots">
       <h2 class="lots_name">Лоты</h2>
       <div class="cards">
-        <div class="card film">
+        <a class="card film">
           <div class="text">
-            <p class="card__head">Фильм режиссёра, который  бросил киношколу</p>
+            <h3 class="card__head">Фильм режиссёра, который  бросил киношколу</h3>
             <p class="card__paragraph">
               Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
               ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
             </p>
           </div>
-        </div>
-        <div class="card book">
+        </a>
+        <a class="card book">
           <div class="text">
-            <p class="card__head">
+            <h3 class="card__head">
               Книга, где описан один скучный день из жизни рекламного агента
-            </p>
+            </h3>
             <p class="card__paragraph">
               Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
               переходами на древнеанглийский. В ней одновременно рассказывается
@@ -70,12 +70,12 @@
               бы вы поставили на «Улисса» Джеймса Джойса?
             </p>
           </div>
-        </div>
-        <div class="card picture">
+        </a>
+        <a class="card picture">
           <div class="text">
-            <p class="card__head">
+            <h3 class="card__head">
               Картина, которую повторит даже 5-летний сын маминой подруги
-            </p>
+            </h3>
             <p class="card__paragraph">
               Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то
               похожее на инфузорию-туфельку. Никаких полей, лесов, котиков…
@@ -83,16 +83,16 @@
               из революционных работ Кандинского?
             </p>
           </div>
-        </div>
+        </a>
         
       </div>
       <a class="lots_more" href="#">посмотреть больше</a>
     </section>
-    <div id="about" class="about">
+    <section id="about" class="about">
       <div class="about_background">
         <img class="about_logo" src="images/logo-white.svg" alt="about logo" />
       </div>
-      <p class="about_header">Об аукционе</p>
+      <h2 class="about_header">Об аукционе</h2>
       <div class="about_paragraph">
         <p>
           Здесь вы не встретите очередное пафосное собрание невероятно дорогого
@@ -110,22 +110,24 @@
           продолжали верить их создатели. И сейчас эти лоты стали культовыми.
         </p>
       </div>
-    </div>
+    </section>
     <footer class="footer">
       <address class="footer_address">
         <a class="phone-number" href="tel:+99995555555">+9 999 555 5555</a>
         <a class="e-mail" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p class="adds">наб. Принсенграхт 263-265, Амстердам</p>
       </address>
-      <ul class="footer_menu">
-        <a href="#header">главная</a>
-        <a href="#lots">посмотреть лоты</a>
-        <a href="#about">об аукционе</a>
-      </ul>
+      <nav>
+        <ul class="footer_menu">
+          <li><a class="home" href="#header">главная</a></li>
+          <li><a href="#lots">посмотреть лоты</a></li>
+          <li><a href="#about">об аукционе</a></li>
+        </ul>
+      </nav>
       <div class="footer_socials">
-        <img class="youtube" src="images/yt.svg" alt="youtube" />
-        <img class="vk" src="images/vk.svg" alt="vk" />
-        <img class="pinterest" src="images/pinterest.svg" alt="pinterest" />
+        <a><img class="youtube" src="images/yt.svg" alt="youtube" /></a>
+        <a><img class="vk" src="images/vk.svg" alt="vk" /></a>
+        <a><img class="pinterest" src="images/pinterest.svg" alt="pinterest" /></a>
       </div>
     </footer>
   </body>
